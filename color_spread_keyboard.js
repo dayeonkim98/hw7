@@ -41,7 +41,7 @@ const d = 30;
 
 function draw() {
   background(255);
-  backone.stroke(random(1, 360), 50, 150, 0.03);
+  backone.stroke(random(1, 360), 50, 150, 0.1);
 
   for (let i = 0; i < circles.length; i++) {
     // for each circle
